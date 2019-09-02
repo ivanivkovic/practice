@@ -14,7 +14,7 @@ function println($var)
 <?= "Testing short open tags, they should work in ALL new PHP versions, regardless of the settings used</br></br>" ?>
 
 <?php
-https://gitlab.com/ivanivkovic/practice
+
 //----------- FUNCTIONS -------------//
 
 # We can call a function "before" defining it. That's because PHP first parses the file and then executes it.
