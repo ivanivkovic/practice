@@ -29,9 +29,9 @@ function sum($v1, $v2)
 $string[1] = '';
 $float = 3.43;
 
-$string = $float; // Result is 3.43
+$string = $float;
 
-println($string);
+println($string); // Result is 3.43
 
 $foo = 5 * "10 Little Piggies"; // $foo is integer (50)
 $foo = 5 * "10 Small Pigs";     // $foo is integer (50)
