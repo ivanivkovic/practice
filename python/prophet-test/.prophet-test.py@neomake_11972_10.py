@@ -7,8 +7,8 @@ import seaborn as sns
 
 data = pandas.read_csv('google-trends-data-science-5y.csv', sep=',')
 
-#data.head(12)
-#data.tail(12)
+data.head(12)
+data.tail(12)
 
 
 series = data.groupby('Week')['Trends Count'].sum()
@@ -25,9 +25,6 @@ time_span = 52
 from sklearn.preprocessing import MinMaxScaler
 
 values = series.values
-
-print(values)
-
-values = values.reshape(len(values), 1)
+values = values.reshape((len(values), 1))
 
 print(values)
