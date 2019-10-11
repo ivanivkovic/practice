@@ -57,9 +57,3 @@ $name = 'Ivan';
 
 // Testing an anonymous object
 $me = (object) ['name'=>$name, 'lastname'=>'Ivković'];
-
-echo <<<EOT
-</br>Testing heredoc string syntax. My name is $name.</br>
-Again, my name is {$me->name} {$me->lastname}.
-This should print a capital 'A': \x41
-EOT;
